@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>CodeReview3</title>
+	<link rel="stylesheet" type="text/css" href="css/quote.css">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+</head>
+<body>
+	<div id="header">
+		
+		<div id="one"><h1 id="title">Insurance Company</h1></div>
+		
+	</div>
+
+	<div id="main">
+		<div id="input">
+			<div class="block">
+				<label>Your Name: 
+					<input id="name" type="text" required>
+				</label>
+			</div>
+			<div class="block">
+				<label>Age: 
+					<input id="age" type="number" required>
+				</label>
+			</div>
+			<div class="block">
+				<label>Country: 
+					<select id="country" name="select" required>
+						<option value="germany">Germany</option>
+						<option value="austria" selected>Austria</option>
+						<option value="italy">Italy</option>
+					</select>	
+				</label>
+			</div>
+			<div>
+				<label>Horsepower:
+					<input id="horsepower" type="number" required>
+				</label>
+			</div>
+		</div>
+		<button id="calculate">Calculate</button>
+	</div>
+
+	<div id="prices">
+		<p id="cost"></p>
+	</div>
+
+	<script src="js/quote.js"></script>
+</body>
+</html>
